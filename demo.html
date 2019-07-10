@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<p>
+    <label>Mobile</label>
+</p>
+<p>
+    <table border="1" width="100%">
+    <tr>
+        <td>
+        <h5>SamSung Galaxy</h5>
+        <h6>Cost: 12.000.000</h6>
+        <button onclick="app.add('12000000','SamSung Galaxy')">Add</button>
+        </td>
+        <td>
+        <h5>Iphone X plus</h5>
+        <h6>Cost: 20.000.000</h6>
+        <button onclick="app.add('20000000','Iphone X plus')">Add</button>
+        </td>
+        <td>
+        <h5>Sonny Xperia</h5>
+            <h6>Cost: 5.000.000</h6>
+            <button onclick="app.add('5000000','Sonny Xperia')">Add</button>
+        </td>
+        <td>
+            <h5>Nokia X6</h5>
+            <h6>Cost: 7.000.000</h6>
+            <button onclick="app.add('7000000','Nokia X6')">Add</button>
+        </td>
+        <td>
+            <h5>Xiaomi Mate20 pro</h5>
+            <h6>Cost: 10.000.000</h6>
+            <button onclick="app.add('10000000','Xiaomi Mate20 pro')">Add</button>
+        </td>
+        <td>
+            <h5>Iphone 6S plus pro</h5>
+            <h6>Cost: 6.000.000</h6>
+            <button onclick="app.add('6000000','Iphone 6S plus pro')">Add</button>
+        </td>
+        <td>
+            <h5>OPPO Neo 7</h5>
+            <h6>Cost: 8.000.000</h6>
+            <button onclick="app.add('8000000','OPPO Neo 7')">Add</button>
+        </td>
+    </tr>
+    </table>
+</p>
+
+<div class="create-product"></div>
+<div class="List-product">
+    <h1>List Product</h1>
+    <table border="1" width="400">
+        <tr>
+            <td>Name Product</td>
+            <td>Cost</td>
+            <td>Cancel</td>
+            <td>Total Product: <span id="total-product"></span></td>
+        </tr>
+        <tbody id="list-product">
+        </tbody>
+    </table>
+</div>
+
+<script src="demo.js"></script>
+</body>
+</html>
